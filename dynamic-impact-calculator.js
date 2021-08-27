@@ -95,7 +95,7 @@ function calculateText(donationAmount) {
         return "Your monthly donation will change lives all year long.";
     }
     if (msistof) {
-        return kids > 1 ? "Your <span style='text-decoration: underline; text-decoration-color:  rgb(255, 201, 16); text-decoration-thickness: 18%;'>$" + numberWithCommas(donationAmount) + "</span> monthly donation can give <span style='text-decoration: underline; text-decoration-color:  rgb(255, 201, 16); text-decoration-thickness: 18%;'>" + numberWithCommas(kids) + "</span> children education every year." : "Your <span style='text-decoration: underline; text-decoration-color:  rgb(10, 186, 180); text-decoration-thickness: 18%;'>$" + numberWithCommas(donationAmount) + "</span> monthly donation can give <span style='text-decoration: underline; text-decoration-color:  rgb(10, 186, 180); text-decoration-thickness: 18%;'>" + numberWithCommas(kids) + "</span> child education every year.";
+        return kids > 1 ? "Your <span style='text-decoration: underline; text-decoration-color:  rgb(255, 201, 16); text-decoration-thickness: 18%;'>$" + numberWithCommas(donationAmount) + "</span> monthly donation can give <span style='text-decoration: underline; text-decoration-color:  rgb(255, 201, 16); text-decoration-thickness: 18%;'>" + numberWithCommas(kids) + "</span> children education every year." : "Your <span style='text-decoration: underline; text-decoration-color:  rgb(255, 201, 16); text-decoration-thickness: 18%;'>$" + numberWithCommas(donationAmount) + "</span> monthly donation can give <span style='text-decoration: underline; text-decoration-color:  rgb(255, 201, 16); text-decoration-thickness: 18%;'>" + numberWithCommas(kids) + "</span> child education every year.";
     }
 }
 function numberWithCommas(x) {
